@@ -38,7 +38,7 @@ namespace es_tps_per_appunti
                 while (true)
                 {
                     sorteggiato = r.Next(1,12);
-                    Thread.Sleep(250);
+                    Thread.Sleep(525);
                     this.Dispatcher.BeginInvoke(new Action(() =>
                     {
                         dado_1.Content = sorteggiato;
@@ -51,8 +51,15 @@ namespace es_tps_per_appunti
 
         private void btn_estrai_Click(object sender, RoutedEventArgs e)
         {
-
+            lst_numeriEstratti.Items.Add(dado_1.Content);
         }
+
+        private void btn_pulisciLista_Click(object sender, RoutedEventArgs e)
+        {
+            lst_numeriEstratti.Items.Clear();
+        }
+
+
 
 
 

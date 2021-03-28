@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:es_tps_per_appunti"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="405.6" Width="353.6">
     <Grid>
-        <Button x:Name="btn_estrai" Content="estrai" HorizontalAlignment="Left" Margin="533,98,0,0" VerticalAlignment="Top" Width="71" Height="50" Click="btn_estrai_Click" />
-        <Label x:Name="dado_1" Content="Label" HorizontalAlignment="Left" Height="27" Margin="136,98,0,0" VerticalAlignment="Top" Width="64"/>
-        <Label x:Name="dado_2" Content="Label" HorizontalAlignment="Left" Height="27" Margin="322,98,0,0" VerticalAlignment="Top" Width="52"/>
-        <ListBox x:Name="lst_numeriEstratti" HorizontalAlignment="Left" Height="166" Margin="165,173,0,0" VerticalAlignment="Top" Width="150"/>
+        <Button x:Name="btn_estrai" Content="estrai" HorizontalAlignment="Left" Margin="188,62,0,0" VerticalAlignment="Top" Width="71" Height="50" Click="btn_estrai_Click" />
+        <Label x:Name="dado_1" Content="" HorizontalAlignment="Left" Height="27" Margin="109,74,0,0" VerticalAlignment="Top" Width="64"/>
+        <ListBox x:Name="lst_numeriEstratti" HorizontalAlignment="Left" Height="166" Margin="109,149,0,0" VerticalAlignment="Top" Width="150"/>
+        <Button x:Name="btn_pulisciLista" Content="pulisci lista" HorizontalAlignment="Left" Height="28" Margin="109,320,0,0" VerticalAlignment="Top" Width="150" Click="btn_pulisciLista_Click"/>
 
     </Grid>
 </Window>
