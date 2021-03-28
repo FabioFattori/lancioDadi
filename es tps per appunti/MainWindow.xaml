@@ -7,7 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="btn" Content="Button" HorizontalAlignment="Left" Margin="128,113,0,0" VerticalAlignment="Top" Width="71" Height="50" Click="Button_Click"/>
+        <Button x:Name="btn_estrai" Content="estrai" HorizontalAlignment="Left" Margin="533,98,0,0" VerticalAlignment="Top" Width="71" Height="50" Click="btn_estrai_Click" />
+        <Label x:Name="dado_1" Content="Label" HorizontalAlignment="Left" Height="27" Margin="136,98,0,0" VerticalAlignment="Top" Width="64"/>
+        <Label x:Name="dado_2" Content="Label" HorizontalAlignment="Left" Height="27" Margin="322,98,0,0" VerticalAlignment="Top" Width="52"/>
+        <ListBox x:Name="lst_numeriEstratti" HorizontalAlignment="Left" Height="166" Margin="165,173,0,0" VerticalAlignment="Top" Width="150"/>
 
     </Grid>
 </Window>

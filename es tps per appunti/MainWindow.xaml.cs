@@ -22,6 +22,7 @@ namespace es_tps_per_appunti
     public partial class MainWindow : Window
     {
         Random r;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -36,11 +37,11 @@ namespace es_tps_per_appunti
             {
                 while (true)
                 {
-                    sorteggiato = r.Next(1, 1001);
+                    sorteggiato = r.Next(1,12);
                     Thread.Sleep(250);
                     this.Dispatcher.BeginInvoke(new Action(() =>
                     {
-                        btn.Content = sorteggiato;
+                        dado_1.Content = sorteggiato;
                     }));
                     
                 }
@@ -48,22 +49,25 @@ namespace es_tps_per_appunti
         }
 
 
-
-
-
-
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void btn_estrai_Click(object sender, RoutedEventArgs e)
         {
-            //ExecuteLongOpSincrono();
-            ExecuteLongOpAsincrono();
-            //MessageBox.Show("Operazione sincrona completata");
+
         }
 
+
+
+        /*private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            //ExecuteLongOpSincrono();
+            
+            //MessageBox.Show("Operazione sincrona completata");
+        }
+        
         private void ExecuteLongOpSincrono()
         {
             for(int i = 0; i < 10; i++)
             {
-                Thread.Sleep(1000);
+                Thread.Sleep(1500);
             }
         }
 
@@ -78,5 +82,8 @@ namespace es_tps_per_appunti
                 MessageBox.Show("Operazione asincrona completata");
             });
         }
+        */
+
+
     }
 }
