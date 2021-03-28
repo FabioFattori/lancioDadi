@@ -37,8 +37,8 @@ namespace es_tps_per_appunti
             {
                 while (true)
                 {
-                    sorteggiato = r.Next(1,12);
-                    Thread.Sleep(525);
+                    sorteggiato = r.Next(1,13);
+                    Thread.Sleep(510);
                     this.Dispatcher.BeginInvoke(new Action(() =>
                     {
                         dado_1.Content = sorteggiato;
