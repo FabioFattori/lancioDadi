@@ -1,0 +1,15 @@
+C:\Users\fabio\Desktop\es tps per appunti\es tps per appunti\bin\Debug\es tps per appunti.exe.config
+C:\Users\fabio\Desktop\es tps per appunti\es tps per appunti\bin\Debug\es tps per appunti.exe
+C:\Users\fabio\Desktop\es tps per appunti\es tps per appunti\bin\Debug\es tps per appunti.pdb
+C:\Users\fabio\Desktop\es tps per appunti\es tps per appunti\obj\Debug\es tps per appunti.csprojAssemblyReference.cache
+C:\Users\fabio\Desktop\es tps per appunti\es tps per appunti\obj\Debug\MainWindow.g.cs
+C:\Users\fabio\Desktop\es tps per appunti\es tps per appunti\obj\Debug\App.g.cs
+C:\Users\fabio\Desktop\es tps per appunti\es tps per appunti\obj\Debug\es tps per appunti_MarkupCompile.cache
+C:\Users\fabio\Desktop\es tps per appunti\es tps per appunti\obj\Debug\es tps per appunti_MarkupCompile.lref
+C:\Users\fabio\Desktop\es tps per appunti\es tps per appunti\obj\Debug\MainWindow.baml
+C:\Users\fabio\Desktop\es tps per appunti\es tps per appunti\obj\Debug\es tps per appunti.g.resources
+C:\Users\fabio\Desktop\es tps per appunti\es tps per appunti\obj\Debug\es_tps_per_appunti.Properties.Resources.resources
+C:\Users\fabio\Desktop\es tps per appunti\es tps per appunti\obj\Debug\es tps per appunti.csproj.GenerateResource.cache
+C:\Users\fabio\Desktop\es tps per appunti\es tps per appunti\obj\Debug\es tps per appunti.csproj.CoreCompileInputs.cache
+C:\Users\fabio\Desktop\es tps per appunti\es tps per appunti\obj\Debug\es tps per appunti.exe
+C:\Users\fabio\Desktop\es tps per appunti\es tps per appunti\obj\Debug\es tps per appunti.pdb
